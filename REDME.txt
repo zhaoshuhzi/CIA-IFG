@@ -1,0 +1,15 @@
+# CIA Framework: Causal Inference Analysis for Brain Networks
+
+This repo implements a full pipeline of the CIA framework as described in recent neuroimaging studies, using MNE, Bayesian networks, SEM, and counterfactual verification.
+
+## Features
+- EEG ERP source localization via MNE
+- Functional network DAG construction via NOTEARS
+- SEM-based validation
+- Counterfactual causality check with TiMINo and Granger causality
+
+## Run
+
+```bash
+pip install -r requirements.txt
+python cia_pipeline.py
